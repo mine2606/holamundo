@@ -1,0 +1,57 @@
+
+/*seleccion por etiqueta*/
+
+h1 {
+    color:rgba(0, 183, 255, 0.658);
+    background-color: yellow;
+}
+
+/* seleccion por id*/
+.cabecera {
+    color:green;
+}
+
+#dos, #tres {
+    color:orange;
+}
+#cuatro {
+    font-size: larger;
+}
+
+/*sellecion por clase*/
+
+.destacado {
+    font-weight: bold;
+
+}
+
+
+
+
+
+header > #logo {
+    margin-left: 60px;
+}
+
+
+.container > .row > .col:nth-child(1) {
+    background-color: rgb(0, 255, 191);
+
+}
+
+.container > .row > .col:nth-child(2) {
+    font-size: 20px;
+}
+
+.container > .row > .col:nth-child(4) {
+    background-color: grey;
+    color:orange;
+    text-aling: center;
+    
+
+}
+
+.container > .row:nth-child(2) img {
+    margin: 30px;
+
+}
